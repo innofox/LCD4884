@@ -1,7 +1,7 @@
 #ifndef FONTS_H
 #define FONTS_H
 
-unsigned char  font6_8[][6] PROGMEM =
+const unsigned char  font6_8[][6] PROGMEM =
 
 {
 
@@ -197,7 +197,7 @@ unsigned char  font6_8[][6] PROGMEM =
 
 
 
-unsigned char   big_number[13][3][16] PROGMEM = {
+const unsigned char big_number[13][3][16] PROGMEM = {
 
 
 
